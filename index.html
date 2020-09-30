@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fan Art App</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script defer src="index.js"></script>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <div class="heading">
+            <div class='item'>
+              <h2 class="ui header">
+                <i class="blue icon"></i>
+                <div class="content">
+                  FAN ART APP 
+                </div>
+                <div class="sub header" id="subtitle">
+                  SHARE YOUR ART 
+                </div>
+              </h2>
+            </div>
+        </div>
+        
+        <div class="ui centered grid">
+
+            <!-- left menu -->
+            <div class="four wide column">
+                <div class="list-container">
+
+                    <div class="ui divided list" id="users_list">
+                        <div class="specific user">
+                            User's names will go here.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- images in center column-->
+            <div class="four wide column">
+                <div class="list-container">
+                    <div class="image card">
+                        <img id="shared_pic" alt="images go here" src="https://i.imgflip.com/rc8j4.jpg">
+                        <div class="description">[description of image]</div>
+                        <div class="ui red button">Like</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right List -->
+            <div class="four wide column">
+                <div class="ui cards" id="current_user">
+                    <div class="user card">
+                        <div id="username">[CURRENTLY VIEWING USERNAME]</div>
+                        <div id="bio">[VIEWING BIO]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
